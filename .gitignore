@@ -132,7 +132,6 @@ dmypy.json
 .DS_Store
 .vscode/settings.json
 dataset/
-results/
 models/
 figs/
 *.csv
