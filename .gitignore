@@ -134,7 +134,6 @@ dmypy.json
 dataset/
 models/
 figs/
-*.csv
 .xlsx
 archive/
 catboost_info/
