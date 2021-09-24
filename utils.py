@@ -173,7 +173,7 @@ def add_standard_fold(df, n_fold):
 
 def add_time_fold(df, n_fold, shuffle=False, seed=None):
     list_time_id = sorted(df['time_id'].unique())
-    if shuffle:
+    if shuffle or seed:
         if seed:
             np.random.seed(seed)
         np.random.shuffle(list_time_id)
